@@ -6,8 +6,6 @@ public class inscripcion {
     //Atributos
     private int idInscripcion;
     private double nota; 
-    private int idAlumno;
-    private int idMateria;
     private Alumno alumno; 
     private Materia materia; 
     
@@ -49,24 +47,4 @@ public class inscripcion {
         this.nota = nota;
     }
 
-    public int getIdAlumno() {
-        return idAlumno;
-    }
-
-    public void setIdAlumno(int idAlumno) {
-        this.idAlumno = idAlumno;
-    }
-
-    public int getIdMateria() {
-        return idMateria;
-    }
-
-    public void setIdMateria(int idMateria) {
-        this.idMateria = idMateria;
-    }
-    
-    
-    
-    
-    
 }
