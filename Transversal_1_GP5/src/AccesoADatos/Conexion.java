@@ -29,7 +29,7 @@ public class Conexion {
             JOptionPane.showMessageDialog( null, "Debe agregar los drivers al proyecto; "+ex);
                     
         } catch (SQLException ex) {
-           JOptionPane.showMessageDialog( null, "No se establecio la conecion a la DB: "+ex);
+           JOptionPane.showMessageDialog( null, "No se establecio la conexion a la DB: "+ex);
         }
       
       if(conec != null){

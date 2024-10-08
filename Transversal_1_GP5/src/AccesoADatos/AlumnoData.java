@@ -16,7 +16,7 @@ public class AlumnoData {
     private Connection con=null;
 
     public AlumnoData() {
-        //constructor que inicializa la coneccion
+        //constructor que inicializa la conexion
         con=Conectar.getConexion();
     }
     
